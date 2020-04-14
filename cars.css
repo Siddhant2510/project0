@@ -1,25 +1,33 @@
 h1 {
-    color: red;
-    text-align: center;
+  color: red;
+  text-align: center;
 }
-.carimg{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
+
+.carimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-.carimg:hover{
-    width:53%;
+
+.carimg:hover {
+  width: 53%;
 }
-img:hover{
-    width:105%;
+
+img:hover {
+  width: 105%;
 }
-#LDescription::before{
-    content:"Lambo discription!";
+
+#LDescription::before {
+  content: "Lambo discription!";
 }
-#BDescription::before{
-    content:"Bugatti discription!";
+
+#BDescription::before {
+  content: "Bugatti discription!";
 }
-#RRDescription::before{
-    content:"RR discription!";
+
+#RRDescription::before {
+  content: "RR discription!";
 }
+
+/*# sourceMappingURL=cars.css.map */

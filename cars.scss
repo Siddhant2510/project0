@@ -1,0 +1,26 @@
+$colour: red;
+h1 {
+    color:$colour;
+    text-align: center;
+}
+.carimg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.carimg:hover{
+    width:53%;
+}
+img:hover{
+    width:105%;
+}
+#LDescription::before{
+    content:"Lambo discription!";
+}
+#BDescription::before{
+    content:"Bugatti discription!";
+}
+#RRDescription::before{
+    content:"RR discription!";
+}
