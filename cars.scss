@@ -24,3 +24,13 @@ img:hover{
 #RRDescription::before{
     content:"RR discription!";
 }
+footer{
+    border: 2px solid black;
+    background: grey;
+    color: aliceblue;
+    margin: 5mm;
+    padding: 10mm;
+}
+footer a{
+    color: aliceblue;
+}
