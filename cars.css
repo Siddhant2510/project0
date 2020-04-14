@@ -39,8 +39,13 @@ footer {
 }
 
 footer a {
-  font-size: 20px;
+  font-size: 30px;
   color: aliceblue;
+}
+
+.titleimg {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=cars.css.map */
