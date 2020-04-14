@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   color: red;
   text-align: center;
@@ -18,16 +19,23 @@ img:hover {
   width: 105%;
 }
 
-#LDescription::before {
-  content: "Lambo discription!";
+#opage {
+  margin-left: 50mm;
+  margin-right: 50mm;
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+
+#LDescription::after {
+  content: "The groundbreaking innovations we introduced with the Aventador marked the beginning of a new era for super sports cars. With the Aventador SV Coupé we have completely redefined the concept.The Superveloce has been designed as the sportiest Lamborghini ever, thanks to a further improved naturally aspirated V12 engine, engineering solutions geared to extreme lightness, and a mix of innovative technological features, such as the magnetorheological push-rod suspension and the Lamborghini Dynamic Steering system.";
 }
 
 #BDescription::before {
-  content: "Bugatti discription!";
+  content: "since its launch in 2005, the bugatti veyron has been regarded as a supercar of superlative quality. it was a real challenge for developers to fulfil the specifications that the new supercar was supposed to meet: over 1,000 hp, a top speed of over 400 km/h and the ability to accelerate from 0 to 100 in under three seconds. even experts thought it was impossible to achieve these performance specs on the road. but that was not all.";
 }
 
 #RRDescription::before {
-  content: "RR discription!";
+  content: "Experience the ultimate Grand Touring encounter, in a motor car born to the role. Restless in spirit and confident in style, Wraith was created for the modern-day seeker. Leave expectation behind. This is Wraith.";
 }
 
 footer {
@@ -62,6 +70,16 @@ footer a {
 
 .setborder {
   border: 1mm solid black;
+}
+
+.bold {
+  margin-right: 50mm;
+  margin-left: 30mm;
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 5mm;
 }
 
 /*# sourceMappingURL=cars.css.map */
