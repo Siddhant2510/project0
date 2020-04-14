@@ -69,4 +69,12 @@ li{
 .size-inc{
     font-size: 5mm;
 }
-
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-left: 30mm;
+}
