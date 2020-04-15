@@ -4,7 +4,7 @@ h1 {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .size-inc {
     font-size: 4mm;
     color: red;
