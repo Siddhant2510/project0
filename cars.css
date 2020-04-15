@@ -9,17 +9,10 @@ h1 {
     font-size: 4mm;
   }
 
-  .official-web {
-    background: blue;
-    margin-left: 10mm;
-    margin-right: 295mm;
-    padding: 2mm;
-  }
-  .official-web a {
-    color: aliceblue;
-  }
-  .official-web a:hover {
-    color: aliceblue;
+  .titleimg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
   }
 }
 .carimg {
