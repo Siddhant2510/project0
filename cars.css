@@ -4,6 +4,11 @@ h1 {
   text-align: center;
 }
 
+@media (max-width: 100mm) {
+  .size-inc {
+    font-size: 5mm;
+  }
+}
 .carimg {
   display: block;
   margin-left: auto;
@@ -41,7 +46,6 @@ img:hover {
 footer {
   border: 2px solid black;
   background: grey;
-  color: aliceblue;
   margin: 5mm;
   padding: 10mm;
 }
@@ -82,15 +86,15 @@ li {
   margin-bottom: 5mm;
 }
 
-.size-inc {
-  font-size: 5mm;
-}
-
 th, td {
   border: 1px solid black;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
+}
+
+th {
+  color: #06068f;
 }
 
 table {

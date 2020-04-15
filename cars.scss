@@ -1,7 +1,13 @@
 $colour: red;
+$linkcolour: aliceblue;
 h1 {
     color:$colour;
     text-align: center;
+}
+@media (max-width: 100mm) {
+    .size-inc{
+        font-size: 5mm;
+    }
 }
 .carimg{
     display:block;
@@ -33,13 +39,14 @@ img:hover{
 footer{
     border: 2px solid black;
     background: grey;
-    color: aliceblue;
     margin: 5mm;
     padding: 10mm;
 }
-footer a{
-    font-size: 20px;
-    color: aliceblue;
+footer{
+    a{
+        font-size: 20px;
+        color: $linkcolour;
+    }
 }
 .titleimg{
     margin-right: auto;
@@ -66,14 +73,18 @@ footer a{
 li{
     margin-bottom: 5mm;
 }
-.size-inc{
-    font-size: 5mm;
-}
-th,td{
+%td{
     border: 1px solid black;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+}
+td{
+    @extend %td;
+}
+th{
+    @extend %td;
+    color:rgb(6, 6, 143);
 }
 table{
     margin-left: 30mm;
@@ -84,9 +95,9 @@ table{
     margin-right: 290mm;
     padding: 5mm;
     a{
-    color: aliceblue;
+    color: $linkcolour;
     }
     a:hover{
-        color: aliceblue;
+        color: $linkcolour;
     }
 }
