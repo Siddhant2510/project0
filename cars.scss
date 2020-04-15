@@ -53,10 +53,6 @@ footer{
         color: $linkcolour;
     }
 }
-.titleimg{
-    margin-right: auto;
-    margin-left: auto;
-}
 .mycard-title{
     text-align: center;
     margin-top: 10mm;
@@ -95,6 +91,10 @@ th{
 {
     table{
         margin-left: 30mm;
+    }
+    .titleimg{
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 .official-web{
