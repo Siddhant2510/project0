@@ -86,9 +86,11 @@ th{
     @extend %td;
     color:rgb(6, 6, 143);
 }
-table{
-    margin-left: 30mm;
-    margin-right: 30mm;
+@media (min-width: "601px")
+{
+    table{
+        margin-left: 30mm;
+    }
 }
 .official-web{
     background: blue;
