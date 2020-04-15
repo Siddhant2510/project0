@@ -8,6 +8,18 @@ h1 {
     .size-inc{
         font-size: 4mm;
     }
+    .official-web{
+        background: blue;
+        margin-left: 10mm;
+        margin-right: 295mm;
+        padding: 2mm;
+        a{
+        color: $linkcolour;
+        }
+        a:hover{
+            color: $linkcolour;
+        }
+    }
 }
 .carimg{
     display:block;
@@ -93,10 +105,10 @@ th{
     }
 }
 .official-web{
+    display: inline;
     background: blue;
     margin-left: 10mm;
-    background-size: 10mm 25mm;
-    padding: 5mm;
+    padding: 2mm;
     a{
     color: $linkcolour;
     }
