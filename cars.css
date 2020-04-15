@@ -13,7 +13,6 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    border: 1mm solid black;
   }
 
   .mycard-title {
@@ -70,14 +69,6 @@ footer a {
   color: aliceblue;
 }
 
-.mycard-title {
-  text-align: center;
-  margin-top: 10mm;
-  color: yellow;
-  font-size: 20mm;
-  font-family: sans-serif;
-}
-
 .setmargin {
   margin-bottom: 30mm;
 }
@@ -116,6 +107,14 @@ th {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+  }
+
+  .mycard-title {
+    text-align: center;
+    margin-top: 10mm;
+    color: yellow;
+    font-size: 20mm;
+    font-family: sans-serif;
   }
 }
 .official-web {
