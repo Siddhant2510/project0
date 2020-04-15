@@ -38,13 +38,6 @@ img:hover {
   width: 105%;
 }
 
-#opage {
-  margin-left: 50mm;
-  margin-right: 50mm;
-  margin-top: 10mm;
-  margin-bottom: 10mm;
-}
-
 #LDescription::after {
   content: "The groundbreaking innovations we introduced with the Aventador marked the beginning of a new era for super sports cars. With the Aventador SV Coupé we have completely redefined the concept.The Superveloce has been designed as the sportiest Lamborghini ever, thanks to a further improved naturally aspirated V12 engine, engineering solutions geared to extreme lightness, and a mix of innovative technological features, such as the magnetorheological push-rod suspension and the Lamborghini Dynamic Steering system.";
 }
@@ -115,6 +108,13 @@ th {
     color: yellow;
     font-size: 20mm;
     font-family: sans-serif;
+  }
+
+  #opage {
+    margin-left: 50mm;
+    margin-right: 50mm;
+    margin-top: 10mm;
+    margin-bottom: 10mm;
   }
 }
 .official-web {
