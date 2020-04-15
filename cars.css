@@ -22,6 +22,11 @@ h1 {
     font-size: 5mm;
     font-family: sans-serif;
   }
+
+  .bold {
+    margin-right: 10mm;
+    font-weight: bold;
+  }
 }
 .carimg {
   display: block;
@@ -70,12 +75,6 @@ footer a {
   border: 1mm solid black;
 }
 
-.bold {
-  margin-right: 50mm;
-  margin-left: 30mm;
-  font-weight: bold;
-}
-
 li {
   margin-bottom: 5mm;
 }
@@ -115,6 +114,15 @@ th {
     margin-right: 50mm;
     margin-top: 10mm;
     margin-bottom: 10mm;
+  }
+
+  .bold {
+    margin-right: 50mm;
+    font-weight: bold;
+  }
+
+  ul {
+    margin-left: 30mm;
   }
 }
 .official-web {
